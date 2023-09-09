@@ -61,7 +61,7 @@ export const comment = {
 		// Visit the link below, and follow the steps in the 'configuration' section
 		// https://giscus.app/
 		repo: 'sudo-vaibhav/sudomakes',
-		reposId: 'R_kgDOKRfE4A',
+		repoId: 'R_kgDOKRfE4A',
 		category: 'General',
 		categoryId: 'DIC_kwDOKRfE4M4CZM3X',
 		mapping: 'pathname', // supported options: pathname, url, title
