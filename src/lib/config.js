@@ -60,10 +60,10 @@ export const comment = {
 	giscus: {
 		// Visit the link below, and follow the steps in the 'configuration' section
 		// https://giscus.app/
-		repo: 'akiarostami/sveltekit-tailwind-blog-starter',
-		reposId: 'R_kgDOIen4kw',
-		category: 'Sample Site Comments',
-		categoryId: 'DIC_kwDOIen4k84CS9tX',
+		repo: 'sudo-vaibhav/sudomakes',
+		reposId: 'R_kgDOKRfE4A',
+		category: 'General',
+		categoryId: 'DIC_kwDOKRfE4M4CZM3X',
 		mapping: 'pathname', // supported options: pathname, url, title
 		reactionsEnabled: '1', // Emoji reactions: 1 = enable / 0 = disable
 		// Send discussion metadata periodically to the parent window: 1 = enable / 0 = disable
