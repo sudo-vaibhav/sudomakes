@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  external:
+    # container_name: sudomakes
+    # The name of the image that will be created when building this container
+    # image: sudomakes
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - 5173:5173

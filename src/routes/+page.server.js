@@ -1,6 +1,6 @@
 import { getEntries } from '$utils/entries.js';
 import { error } from '@sveltejs/kit';
-export const prerender = true;
+export const prerender = false;
 /** @type {import('./$types').PageServerLoad} */
 export async function load() {
 	const posts = getEntries('posts');
