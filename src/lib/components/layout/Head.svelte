@@ -8,7 +8,7 @@
 	export let domain = config.domain;
 	export let rtl = false;
 	let titleFromUrl = url.split('/').pop().replace('-', ' ');
-	export let img = `${url}/og?message=${rtl ? titleFromUrl : title}`;
+	export let img = `${url}/og?text=${rtl ? titleFromUrl : title}`;
 </script>
 
 <svelte:head>
