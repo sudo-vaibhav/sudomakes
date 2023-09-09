@@ -8,7 +8,7 @@
 
 <div class="divide-y divide-gray-200 dark:divide-gray-700">
 	<div class="space-y-2 pt-6 pb-8 md:space-y-5">
-		<Title title="Projects" subtitle="The great things we have done and are doing at Pied Piper" />
+		<Title title="Projects" subtitle="Ah, yes! A collection of my misadventures." />
 	</div>
 	<div class="container py-12">
 		<div class="-m-4 flex flex-wrap">

@@ -1,5 +1,5 @@
 {
-	"origins": ["https://pied-piper-blog.netlify.app"],
+	"origins": ["https://sudomakes.art"],
 	"originsRegex": [
 		"http://localhost:[0-9]+",
 		"https://localhost:[0-9]+",

@@ -1,42 +1,42 @@
 export const config = {
-	title: 'Pied Piper (un)official blog',
-	author: 'Ahmad Kiarostami',
-	headerTitle: 'Pied Piper',
-	description: 'Pied Piper (un)official blog, created with Sveltekit and Tailwind.css',
+	title: 'Vaibhav Chopra',
+	author: 'Vaibhav Chopra',
+	headerTitle: 'SudoMakes',
+	description: 'SudoMakes - Just Ship It!',
 	language: 'en-us',
 	theme: 'dark', // system, dark or light
 	domain: 'http://www.piedpiper.com/',
-	siteUrl: 'https://pied-piper-blog.netlify.app',
-	siteRepo: 'https://github.com/akiarostami/sveltekit-tailwind-blog-starter',
+	siteUrl: 'https://sudomakes.art',
+	// siteRepo: 'https://github.com/akiarostami/sveltekit-tailwind-blog-starter',
 	siteLogo: '/icon-512.png',
 	// image: '/img/avatar.png',
-	email: 'info@piedpiper.com',
-	github: 'https://github.com/piedpiper',
-	twitter: 'https://twitter.com/piedpiperplc',
-	facebook: 'https://www.facebook.com/piedpipersv',
-	youtube: 'https://www.youtube.com/watch?v=p3RwX06wcBs',
-	linkedin: 'https://www.linkedin.com/company/pied-piper-plc/',
+	email: 'mailvaibhavchopra@gmail.com',
+	github: 'https://github.com/sudo-vaibhav',
+	twitter: 'https://twitter.com/sudomakes',
+	// facebook: 'https://www.facebook.com/piedpipersv',
+	youtube: 'https://www.youtube.com/@sudomakes',
+	linkedin: 'https://www.linkedin.com/in/sudomakes/',
 	locale: 'en-US',
 	primaryColor: '#06a261',
 
 	// supports buttondown, convertkit, emailoctopus, klaviyo, mailchimp, revue
 	// use false or null to disable newsletter
 	// check .env.example for settings needed values for each service
-	newsletter: 'mailchimp',
+	newsletter: false,
 
-	multiuser: true
+	multiuser: false
 };
 
 export const user = {
-	name: 'admin',
+	name: 'Vaibhav Chopra',
 	// avatar value can be removed for image
-	avatar: '/logo.png',
+	avatar: '/vaibhav.jpg',
 	// twitter value can be removed for no link to twitter
-	twitter: 'https://twitter.com/piedpiperplc'
+	twitter: 'https://twitter.com/sudomakes'
 };
 
 export const navLinks = [
-	{ href: '/about', title: 'About' },
+	// { href: '/about', title: 'About' },
 	{ href: '/projects', title: 'Projects' },
 	{ href: '/blog', title: 'Blog' }
 ];
