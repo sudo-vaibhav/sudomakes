@@ -1,6 +1,6 @@
 <script>
 	// can use to design: https://og-playground.vercel.app/
-	export let text = 'Official Website';
+	export let text = 'SudoMakes';
 	import { config, openGraph } from '$lib/config';
 	const height = openGraph.height;
 	const color = config.primaryColor;

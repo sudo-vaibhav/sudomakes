@@ -26,6 +26,7 @@
 			{/each}
 		</div>
 		<ThemeSwitch />
+		<a href="https://www.buymeacoffee.com/sudomakesart" target="_blank" class="pl-4"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 144.66px !important;" ></a>
 		<MobileMenu />
 	</div>
 </header>
