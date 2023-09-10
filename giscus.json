@@ -1,5 +1,5 @@
 {
-	"origins": ["https://sudomakes.art"],
+	"origins": ["https://sudomakes.art","https://www.sudomakes.art"],
 	"originsRegex": [
 		"http://localhost:[0-9]+",
 		"https://localhost:[0-9]+",

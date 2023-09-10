@@ -5,7 +5,7 @@ export const config = {
 	description: 'SudoMakes - Just Ship It!',
 	language: 'en-us',
 	theme: 'dark', // system, dark or light
-	domain: 'http://www.piedpiper.com/',
+	domain: 'https://sudomakes.art/',
 	siteUrl: 'https://sudomakes.art',
 	// siteRepo: 'https://github.com/akiarostami/sveltekit-tailwind-blog-starter',
 	siteLogo: '/icon-512.png',
