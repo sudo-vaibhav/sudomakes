@@ -43,6 +43,8 @@ Here's a rundown of the books I have read this year. Note that these are the boo
 
 **The Millionaire Fastlane: Crack the Code to Wealth and Live Rich for a Lifetime**| [Amazon](https://www.amazon.in/gp/product/B08NWY3C14/ref=ppx_yo_dt_b_d_asin_title_o06?ie=UTF8&psc=1)
 
+**Wealth Exposed: MJ Demarco**| [Amazon](https://www.amazon.in/Wealth-Exposed-Argument-Overheard-Fortune-ebook/dp/B085T7PRGM)
+
 ## Health and Fitness
 
 **Good Calories, Bad Calories** | [Amazon](https://www.amazon.in/gp/product/1400033462/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1)
