@@ -1,12 +1,12 @@
 <script>
-	import { dev } from '$app/environment';
+	// import { dev } from '$app/environment';
 	import { page } from '$app/stores';
 
-	let id = '';
+	let id = 'G-6GJXBWMVYT';
 
 	$: {
 		if (typeof gtag !== 'undefined') {
-			gtag('config', ID, {
+			gtag('config', id, {
 				page_title: document.title,
 				page_path: $page.url.pathname
 			});
@@ -15,14 +15,10 @@
 </script>
 
 <svelte:head>
-	{#if !dev && id}
-		<script
-			strategy="lazyOnload"
-			async
-			src={`https://www.googletagmanager.com/gtag/js?id=${id}`}
-		></script>
+	{#if id}
+		<script async src={`https://www.googletagmanager.com/gtag/js?id=${id}`}></script>
 
-		<script strategy="lazyOnload" id="ga-script">
+		<script>
 			window.dataLayer = window.dataLayer || [];
 
 			function gtag() {
@@ -30,7 +26,7 @@
 			}
 
 			gtag('js', new Date());
-			gtag('config', id);
+			gtag('config', 'G-6GJXBWMVYT');
 		</script>
 	{/if}
 </svelte:head>
