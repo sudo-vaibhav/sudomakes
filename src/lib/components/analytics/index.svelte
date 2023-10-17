@@ -10,7 +10,7 @@
 </script>
 
 {#if GoogleAnalyticsId}
-	<GoogleAnalytics id={GoogleAnalyticsId} />
+	<GoogleAnalytics />
 {/if}
 
 {#if PlausibleDomain}
