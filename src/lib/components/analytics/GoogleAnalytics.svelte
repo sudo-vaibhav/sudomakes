@@ -15,18 +15,16 @@
 </script>
 
 <svelte:head>
-	{#if id}
-		<script async src={`https://www.googletagmanager.com/gtag/js?id=${id}`}></script>
+	<script async src={`https://www.googletagmanager.com/gtag/js?id=${id}`}></script>
 
-		<script>
-			window.dataLayer = window.dataLayer || [];
+	<script>
+		window.dataLayer = window.dataLayer || [];
 
-			function gtag() {
-				dataLayer.push(arguments);
-			}
+		function gtag() {
+			dataLayer.push(arguments);
+		}
 
-			gtag('js', new Date());
-			gtag('config', 'G-6GJXBWMVYT');
-		</script>
-	{/if}
+		gtag('js', new Date());
+		gtag('config', 'G-6GJXBWMVYT');
+	</script>
 </svelte:head>
