@@ -5,9 +5,12 @@
 	export let bgColor = '';
 	export let textColor = '';
 	export let logo = 'https://sudomakes.art/logo.png';
-	import { config, openGraph } from '$lib/config';
+	import {
+		// config,
+		openGraph
+	} from '$lib/config';
 	const height = openGraph.height;
-	const color = config.primaryColor;
+	// const color = config.primaryColor;
 	const barWidth = 140;
 </script>
 

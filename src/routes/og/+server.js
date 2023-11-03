@@ -3,7 +3,7 @@ import OGTemplate from '$lib/components/OGTemplate.svelte';
 import OpenSans from '$lib/fonts/OpenSans-ExtraBold.ttf';
 import Saira from '$lib/fonts/Saira-ExtraBold.ttf';
 import { Resvg } from '@resvg/resvg-js';
-import * as Vibrant from 'node-vibrant';
+import Vibrant from 'node-vibrant';
 import satori from 'satori';
 import { html as toReactNode } from 'satori-html';
 // const width = openGraph.width;
