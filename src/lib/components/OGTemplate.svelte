@@ -1,6 +1,8 @@
 <script>
 	// can use to design: https://og-playground.vercel.app/
 	export let text = 'SudoMakes';
+	export let subtext = 'SudoMakes';
+	export let logo = 'https://sudomakes.art/logo.png';
 	import { config, openGraph } from '$lib/config';
 	const height = openGraph.height;
 	const color = config.primaryColor;
@@ -12,9 +14,9 @@
 		<div
 			style="display:flex;background:#064e3b;width:{height}px;justify-content:center;transform-origin:top left;transform:rotate(-90deg) translateX(-100%);border-bottom: 8px solid {color};padding:20px;"
 		>
-			<img src="https://sudomakes.art/logo.png" style="width:100px; height:100px;" alt="SudoMakes logo"/>
+			<img src={logo} style="width:100px; height:100px;" alt="logo" />
 			<div style="font-size:80px;color:{color};font-weight:800;line-height:85%;margin-left:20px;">
-				{config.headerTitle}
+				{subtext}
 			</div>
 		</div>
 	</div>

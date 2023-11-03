@@ -12,8 +12,10 @@ const height = openGraph.height;
 
 /** @type {import('./$types').RequestHandler} */
 export const GET = async ({ url }) => {
-	const text = url.searchParams.get('text') ?? undefined;
-	const result = OGTemplate.render({ text });
+	const text = url.searchParams.get('text') ?? 'SudoMakes';
+	const subtext = url.searchParams.get('subtext') ?? 'SudoMakes';
+	const logo = url.searchParams.get('logo') ?? 'https://sudomakes.art/logo.png';
+	const result = OGTemplate.render({ text, subtext, logo });
 	const element = toReactNode(result.html);
 	// const element = toReactNode(`${result.html}<style>${result.css.code}</style>`);
 
